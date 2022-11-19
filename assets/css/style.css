@@ -1,0 +1,29 @@
+:root {
+    --yellow: #FBD93E;
+    --pink: #ED3AA8;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+li{
+    margin: 10px;
+}
+
+.hero{
+    display:flex
+    justify-content:space-evenly;
+    background-image: url("")
+}
+
+.laugh{
+
+}
+
+.jacket{
+    flex-grow: 2;
+}
