@@ -1,10 +1,10 @@
 
 /* look at adding more roots - esp colour! */
 :root {
-    --header: #FBD93E;
-    --background: #ED3AA8;
-    --pale:#FED6CD;
-    --shamrock:  #39CCAD;
+    --header: #cf0d5e;
+    --background: #5c324c;
+    --pale:#ffcbcb;
+    --highlight:  #3d428b;
     --main-marg: 20px;
     --rocksalt:font-family: 'Rock Salt', cursive;
 }
@@ -12,6 +12,7 @@
 body{
     background-color: var(--background);
     font-family: 'Open Sans', sans-serif;
+    color: var(--background);
 }
 
 /* 
@@ -29,18 +30,19 @@ navigation needs/wants:
     flex-direction: row;
     justify-content: flex-end;
     flex-wrap: nowrap;
+    color: var(--pale);
 }
 
 .nav a:link {
     text-decoration: none;
-    color: var(--header);
+    color: var(--pale);
 }
 .nav a:visited{
-    color: var(--header);
+    color: var(--pale);
 }
 
 .nav a:hover{
-    color: var(--shamrock);
+    color: var(--header);
 }
 
 li{
@@ -140,7 +142,8 @@ projects wants/needs:
     padding: 10px;
     height:auto;
     align-items: center;
-    background-color: var(--shamrock)
+    color: var(--pale);
+    background-color: var(--highlight)
 }
 
 .project2 {
@@ -150,7 +153,8 @@ projects wants/needs:
     padding: 10px;
     height:auto;
     align-items: center;
-    background-color: var(--shamrock)
+    color: var(--pale);
+    background-color: var(--highlight)
 }
 
 /* 
