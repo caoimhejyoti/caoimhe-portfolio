@@ -1,11 +1,12 @@
 
-/* look at adding more roots - esp colour! */
+/* resolve colour accessibility issues */
 :root {
     --header: #a7dbf7;
     --background: #b7039c;
     --pale:#fed2c5;
     --highlight:  #366586;
     --main-marg: 50px;
+    /* fix this resolve to make life easier! */
     --rocksalt:font-family: 'Rock Salt', cursive;
 }
 
@@ -33,6 +34,7 @@ h3{
 p{
     padding: 10px 0px;
 }
+
 body{
     background-color: var(--background);
     font-family: 'Open Sans', sans-serif;
@@ -42,10 +44,10 @@ body{
 /* 
 
 navigation needs/wants:
-    - working links
-    - font
+    - font change possibly - H2?
     - icons?
     - css animation
+    - colour issues
     
 */
 
@@ -82,6 +84,11 @@ li a:hover{
     width: 500px;
 }
 
+/* 
+hero wants/needs: 
+    - 
+*/
+
 .hero{
     display: inline-flex;
     flex-direction: row;
@@ -98,7 +105,7 @@ li a:hover{
 /* 
 header wants/needs:
     - font
-    - animtions?
+    - animtions? - glow?
     - maybe create logo/image of name
 */
 
@@ -127,31 +134,28 @@ main{
 
 /* 
 about wants/needs: 
-    - justify h in the centre of the page
-    - colour
+    - 
 */
 
 #about{
     margin-bottom: var(--main-marg);
 }
 
-/* 
-work wants/needs: 
-    - justify h in the centre of the page
-    - colour
-*/
-
-/* should this be a span? */
+/* should #me be a span? */
 #me{
     font-size: 2vw;
 }
 
+/* 
+work wants/needs: 
+    - 
+*/
+
 #work{
     display: flex;
     display: block;
-    #contact{
     margin-bottom: var(--main-marg);
-    }
+
 }
 
 /* unsure why this syntax does not provide padding and determin with of project images. */
@@ -162,6 +166,7 @@ a[img~="project"]{
 
 /* 
 projects wants/needs: 
+    - img padding - see above
     - animation
     - colour
 */
@@ -178,7 +183,7 @@ projects wants/needs:
 }
 
 .project2 {
-    display: flex;ß
+    display: flex;
     margin: var(--main-marg) 0px var(--main-marg) 0px;
     padding: 10px;
     height:auto;
@@ -190,8 +195,7 @@ projects wants/needs:
 
 /* 
 contact wants/needs: 
-    - justify h in the centre of the page
-    - colour
+    - CONTENT!
 */
 
 #contact{
@@ -202,8 +206,8 @@ contact wants/needs:
 
 /* 
 footer wants/needs: 
-    - icons
-    - colour
+    - icons are cutting off?
+    - colour of icons - both black?
 */
 
 footer {
