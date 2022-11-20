@@ -1,16 +1,17 @@
 
 /* look at adding more roots - esp colour! */
 :root {
-    --yellow: #FBD93E;
-    --pink: #ED3AA8;
+    --header: #FBD93E;
+    --background: #ED3AA8;
     --pale:#FED6CD;
     --shamrock:  #39CCAD;
     --main-marg: 20px;
+    --rocksalt:font-family: 'Rock Salt', cursive;
 }
 
 body{
-    background-color: var(--pink);
-
+    background-color: var(--background);
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* 
@@ -32,10 +33,10 @@ navigation needs/wants:
 
 .nav a:link {
     text-decoration: none;
-    color: var(--yellow);
+    color: var(--header);
 }
 .nav a:visited{
-    color: var(--yellow);
+    color: var(--header);
 }
 
 .nav a:hover{
@@ -76,8 +77,8 @@ header wants/needs:
 header{
     display: flex;
     margin: 50px;
-    color: var(--yellow);
-    font-family: "Rock Salt";
+    color: var(--header);
+    font-family: 'Rock Salt', cursive;
     font-size: 8vw;
     justify-content: center;
 
