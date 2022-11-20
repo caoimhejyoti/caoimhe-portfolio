@@ -31,6 +31,7 @@ navigation needs/wants:
     justify-content: flex-end;
     flex-wrap: nowrap;
     color: var(--pale);
+
 }
 
 .nav a:link {
@@ -43,17 +44,18 @@ navigation needs/wants:
 
 .nav a:hover{
     color: var(--header);
+
 }
 
 li{
     margin: 10px;
+    transition: width 2s;
 }
 
-/* 
-hero wants/needs:
-    - images to match in size/middle be the largest
-    - or crop middle image to just eyes anse that as full hero
-*/
+li a:hover{
+    background-color: #366586;
+    width: 500px;
+}
 
 .hero{
     display: inline-flex;
@@ -79,8 +81,6 @@ header{
     display: flex;
     margin: 50px;
     color: var(--header);
-    font-family: 'Rock Salt', cursive;
-    font-size: 8vw;
     justify-content: center;
 
 }
@@ -96,7 +96,8 @@ main{
     display:flex-column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 0px 50px;
+    margin: 0px 25px;
 }
 
 /* 
@@ -106,7 +107,7 @@ about wants/needs:
 */
 
 #about{
-    margin: var(--main-marg) 0px var(--main-marg) 0px;
+    margin-bottom: var(--main-marg);
 }
 
 /* 
@@ -119,7 +120,7 @@ work wants/needs:
     display: flex;
     display: block;
     #contact{
-    margin: var(--main-marg) 0px var(--main-marg) 0px;
+    margin-bottom: var(--main-marg);
     }
 }
 
@@ -163,7 +164,8 @@ contact wants/needs:
 */
 
 #contact{
-    margin: var(--main-marg) 0px var(--main-marg) 0px;
+    margin: var(--main-marg) 0px;
+    padding-bottom: var(--main-marg);
 }
 
 
@@ -186,4 +188,25 @@ footer {
 footer img{
     width: 30px;
     height: 30px;
+}
+
+@media (max-width:500px) {
+    .laugh, .silly {
+        display: none;
+    }
+    
+
+    /* trying to make jacket become a wide image - just eyes but cannot seem to change shape, never mind cropping! */
+    .jacket {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        /* why on earth does this unfinished line (192) justify in the center but if the line is completed it does nothing?! */
+
+    }
+
+    /* need to increate image size to 50% of card when display is reduced */
+    .card image{
+        width: 50%;
+    }
 }
