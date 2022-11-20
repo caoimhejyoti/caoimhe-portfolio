@@ -14,18 +14,24 @@ h1{
     font-family: 'Rock Salt', cursive;
     font-size: 8vw;
     padding: var(--main-marg);
+    text-align: center;
 }
 
 h2{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 4vw;
     padding: var(--main-marg) 0px var(--main-marg) 0px;
+    text-align: center;
 }
 
 h3{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vw;
     padding: var(--main-marg) 0px var(--main-marg) 0px;
+}
+
+p{
+    padding: 10px 0px;
 }
 body{
     background-color: var(--background);
@@ -49,10 +55,11 @@ navigation needs/wants:
     justify-content: flex-end;
     flex-wrap: nowrap;
     color: var(--pale);
-
 }
 
 .nav a:link {
+    padding: 10px;
+    margin: 20px;
     text-decoration: none;
     color: var(--pale);
 }
@@ -66,7 +73,7 @@ navigation needs/wants:
 }
 
 li{
-    margin: 10px;
+    margin: 20px;
     transition: width 2s;
 }
 
@@ -134,6 +141,11 @@ work wants/needs:
     - colour
 */
 
+/* should this be a span? */
+#me{
+    font-size: 2vw;
+}
+
 #work{
     display: flex;
     display: block;
@@ -142,7 +154,8 @@ work wants/needs:
     }
 }
 
-card img{
+/* unsure why this syntax does not provide padding and determin with of project images. */
+a[img~="project"]{
     width: 30%;
     padding:10px;
 }
