@@ -104,7 +104,7 @@ about wants/needs:
     - colour
 */
 
-.about{
+#about{
     margin: var(--main-marg);
 
 }
@@ -115,7 +115,7 @@ about wants/needs:
     - colour
 */
 
-.work{
+#work{
     display: flex;
     display: block;
 
@@ -143,7 +143,7 @@ projects wants/needs:
 }
 
 .project2 {
-    display: flex;
+    display: flex;ß
     margin-top: 10px;
     margin-left: 5px;
     padding: 10px;
@@ -158,7 +158,7 @@ contact wants/needs:
     - colour
 */
 
-.contact{
+#contact{
     margin: var(--main-marg);
 }
 
