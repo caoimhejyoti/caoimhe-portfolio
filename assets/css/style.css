@@ -1,11 +1,11 @@
 
 /* look at adding more roots - esp colour! */
 :root {
-    --header: #cf0d5e;
-    --background: #5c324c;
-    --pale:#ffcbcb;
-    --highlight:  #3d428b;
-    --main-marg: 20px;
+    --header: #a7dbf7;
+    --background: #b7039c;
+    --pale:#fed2c5;
+    --highlight:  #366586;
+    --main-marg: 50px;
     --rocksalt:font-family: 'Rock Salt', cursive;
 }
 
@@ -97,7 +97,6 @@ main{
     display:flex-column;
     align-items: center;
     justify-content: center;
-    width: 80%;
     padding: 20px;
 }
 
@@ -108,12 +107,11 @@ about wants/needs:
 */
 
 #about{
-    margin: var(--main-marg);
-
+    margin: var(--main-marg) 0px var(--main-marg) 0px;
 }
 
 /* 
-about wants/needs: 
+work wants/needs: 
     - justify h in the centre of the page
     - colour
 */
@@ -121,7 +119,9 @@ about wants/needs:
 #work{
     display: flex;
     display: block;
-
+    #contact{
+    margin: var(--main-marg) 0px var(--main-marg) 0px;
+    }
 }
 
 card img{
@@ -137,10 +137,10 @@ projects wants/needs:
 
 .project1 {
     display: flex;
-    margin-top: 10px;
-    margin-left: 5px;
+    margin: var(--main-marg) 0px var(--main-marg) 0px;
     padding: 10px;
     height:auto;
+    border-radius: 5px;
     align-items: center;
     color: var(--pale);
     background-color: var(--highlight)
@@ -148,10 +148,10 @@ projects wants/needs:
 
 .project2 {
     display: flex;ß
-    margin-top: 10px;
-    margin-left: 5px;
+    margin: var(--main-marg) 0px var(--main-marg) 0px;
     padding: 10px;
     height:auto;
+    border-radius: 5px;
     align-items: center;
     color: var(--pale);
     background-color: var(--highlight)
@@ -164,7 +164,7 @@ contact wants/needs:
 */
 
 #contact{
-    margin: var(--main-marg);
+    margin: var(--main-marg) 0px var(--main-marg) 0px;
 }
 
 
