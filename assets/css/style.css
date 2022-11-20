@@ -65,8 +65,7 @@ hero wants/needs:
 }
 
 .hero img{
-    width: 100%;
-
+    width: 33.33vw
 }
 
 /* 
@@ -177,4 +176,14 @@ footer wants/needs:
 footer {
     display:flex;
     justify-content: center;
+    margin: var(--main-marg);
+}
+
+.footer{
+    padding: 10px;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
 }
