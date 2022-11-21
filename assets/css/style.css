@@ -48,7 +48,7 @@ navigation needs/wants:
     - font change possibly - H2?
     - icons?
     - css animation
-    - colour issues
+    - colour accessibility issues
     
 */
 
@@ -159,7 +159,7 @@ work wants/needs:
 
 }
 
-
+/* this is just not working and i cannot figure it out. The flex container is restricting it possibly. auto works but it doesnt then resize. just needs looking at badly! */
 div img{
     width: 100%;
     padding:10px;
