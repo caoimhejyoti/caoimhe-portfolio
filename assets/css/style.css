@@ -203,6 +203,18 @@ contact wants/needs:
     padding-bottom: var(--main-marg);
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+#contact img{
+    display: inline-flex;
+    width: 90px;
+    justify-content: center;
+}
 
 /* 
 footer wants/needs: 
@@ -217,12 +229,11 @@ footer {
 
 .footer{
     padding: 10px;
+    color: var(--header);
+    font-family: 'Rock Salt', cursive;
 }
 
-footer img{
-    width: 30px;
-    height: 30px;
-}
+
 
 @media screen and (max-width:700px) {
     .nav {
@@ -259,4 +270,8 @@ footer img{
     /* .project img{
         width: 50%;
     } */
+
+    .logo {
+        width: auto;
+    }
 }
