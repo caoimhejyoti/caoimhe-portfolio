@@ -33,6 +33,7 @@ h3{
 
 p{
     padding: 10px 0px;
+    font-size: 1.5vw;
 }
 
 body{
@@ -158,15 +159,14 @@ work wants/needs:
 
 }
 
-/* unsure why this syntax does not provide padding and determin with of project images. */
-a[img="project"]{
-    width: 30%;
+
+div img{
+    width: 100%;
     padding:10px;
 }
 
 /* 
 projects wants/needs: 
-    - img padding - see above
     - animation
     - colour
 */
@@ -206,7 +206,6 @@ contact wants/needs:
 
 /* 
 footer wants/needs: 
-    - icons are cutting off?
     - colour of icons - both black?
 */
 
@@ -225,7 +224,16 @@ footer img{
     height: 30px;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
+    .nav {
+        flex-direction: column; 
+        align-items: center;   
+    }
+    
+    li {
+        margin: 10px;
+    }
+
     .laugh, .silly {
         display: none;
     }
@@ -235,13 +243,20 @@ footer img{
     /* .jacket {
         display: flex;
         width: auto;
-        align-items: center; */
-        /* why on earth does this unfinished line (192) justify in the center but if the line is completed it does nothing?! */
+        align-items: center; 
+
+    } */
+        /* why on earth does this unfinished line (192) justify in the center but if the line is completed it does nothing?!
 
     }
 
     /* need to increate image size to 50% of card when display is reduced */
     card {
         flex-direction: column;
+        width: auto;
     }
+
+    /* .project img{
+        width: 50%;
+    } */
 }
