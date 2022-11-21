@@ -159,7 +159,7 @@ work wants/needs:
 }
 
 /* unsure why this syntax does not provide padding and determin with of project images. */
-a[img~="project"]{
+a[img="project"]{
     width: 30%;
     padding:10px;
 }
@@ -225,7 +225,7 @@ footer img{
     height: 30px;
 }
 
-@media (max-width:500px) {
+@media screen and (max-width:500px) {
     .laugh, .silly {
         display: none;
     }
@@ -241,7 +241,7 @@ footer img{
     }
 
     /* need to increate image size to 50% of card when display is reduced */
-    .card image{
-        width: 50%;
+    card {
+        flex-direction: column;
     }
 }
