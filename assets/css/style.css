@@ -143,7 +143,7 @@ about wants/needs:
 
 /* should #me be a span? */
 #me{
-    font-size: 2vw;
+    font-size: 4vw;
 }
 
 /* 
@@ -232,10 +232,10 @@ footer img{
     
 
     /* trying to make jacket become a wide image - just eyes but cannot seem to change shape, never mind cropping! */
-    .jacket {
+    /* .jacket {
         display: flex;
-        width: 100%;
-        align-items: center;
+        width: auto;
+        align-items: center; */
         /* why on earth does this unfinished line (192) justify in the center but if the line is completed it does nothing?! */
 
     }
