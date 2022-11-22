@@ -19,6 +19,7 @@ h1{
 }
 
 h2{
+    
     font-family: 'Josefin Sans', sans-serif;
     font-size: 4vw;
     padding: var(--main-marg) 0px var(--main-marg) 0px;
@@ -31,7 +32,13 @@ h3{
     padding: var(--main-marg) 0px var(--main-marg) 0px;
 }
 
+li{
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.5vw;
+}
+
 p{
+    font-family: 'Alegreya Sans', sans-serif;
     padding: 10px 0px;
     font-size: 1.5vw;
 }
