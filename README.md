@@ -31,22 +31,34 @@ To produce a portfolio to provide to potential employers samples of my work.
 I built this protfolio to develop my skills and continue to  as a platform to ensure that I fully understood the first module of Coding Bootcamp.
 
 ### What problem does it solve?
-The original site had no style sheet. HTML also required debugging.
+This portfolio has given me a platform to direct potential employers to. They can then see the work that I am able to produce. 
 
 ### What did you learn?
 This project allowed me to to learn about the following items:
 
-HTML links internal to site.
-Flexbox
-multiple columns
+* heros/background images
+* responsive design
+* linking external fonts
+* reasons to have separate css/hmtl files
+
+
 
 ## Installation
 N/A
 
 ## Usage
-N/A
+
+
+
+![Alt text](assets/img/portfolio-screengrab.png)
+
+Portfolio to be viewed on browsers. From the site, they can contact me via Contact me links.  
 
 ## Credits
+###Sources
+Google fonts used in the css file. Please refer to the HTML file for further information. 
+
+
 ### Tutorials
 https://www.w3schools.com/cssref/pr_class_position.php https://www.w3schools.com/css/css3_multiple_columns.asp https://css-tricks.com/snippets/css/a-guide-to-flexbox/ https://www.youtube.com/watch?v=xHFzQ8QRjGU&ab_channel=TonyTeachesTech
 
