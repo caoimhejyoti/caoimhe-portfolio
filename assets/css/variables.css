@@ -1,0 +1,11 @@
+:root {
+    --header: #a7dbf7;
+    --background: #b7039c;
+    --pale:#fed2c5;
+    --highlight:  #366586;
+    --main-marg: 50px;
+    /* fix this resolve to make life easier! */
+    --rocksalt:font-family: 'Rock Salt', cursive;
+}
+
+/* resolve colour accessibility issues */

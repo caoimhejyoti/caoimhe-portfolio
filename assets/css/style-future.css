@@ -1,0 +1,16 @@
+.hero{
+    background-image: url(/assets/img/jacket.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero a:hover{
+    filter: blur(10px);
+    transition-property: all;
+    transition-duration: 2s;
+}

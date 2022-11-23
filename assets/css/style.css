@@ -1,16 +1,4 @@
 
-/* resolve colour accessibility issues */
-:root {
-    --header: #a7dbf7;
-    --background: #b7039c;
-    --pale:#fed2c5;
-    --highlight:  #366586;
-    --main-marg: 50px;
-    /* fix this resolve to make life easier! */
-    --rocksalt:font-family: 'Rock Salt', cursive;
-}
-
-
 h1{
     font-family: 'Rock Salt', cursive;
     font-size: 8vw;
@@ -34,7 +22,7 @@ h3{
 
 li{
     font-family: 'Rock Salt', cursive;
-    font-size: 1.5vw;
+    font-size: 1.rem;
 }
 
 p{
@@ -49,53 +37,13 @@ body{
     color: var(--background);
 }
 
-/* 
 
-navigation needs/wants:
-    - font change possibly - H2?
-    - icons?
-    - css animation
-    - colour accessibility issues
-    
-*/
-
-.nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    flex-wrap: nowrap;
-    color: var(--pale);
-}
-
-.nav a:link {
-    padding: 10px;
-    margin: 20px;
-    text-decoration: none;
-    color: var(--pale);
-}
-.nav a:visited{
-    color: var(--pale);
-}
-
-.nav a:hover{
-    color: var(--header);
-
-}
-
-li{
-    margin: 20px;
-    transition: width 2s;
-}
-
-li a:hover{
-    background-color: #366586;
-    width: 500px;
-}
 
 /* 
 hero wants/needs: 
     - 
 */
+
 
 .hero{
     display: inline-flex;
@@ -107,7 +55,8 @@ hero wants/needs:
 }
 
 .hero img{
-    width: 33.33vw
+    width: 30vw;
+
 }
 
 /* 
@@ -122,7 +71,7 @@ header{
     margin: 50px;
     color: var(--header);
     justify-content: center;
-
+    text-shadow: 10px 5px 10px var(--highlight);
 }
 
 /* 
@@ -213,19 +162,18 @@ contact wants/needs:
 .logo{
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
 }
 
 
 #contact img{
-    display: inline-flex;
+    display: flex;
     width: 90px;
     justify-content: center;
 }
 
 /* 
 footer wants/needs: 
-    - colour of icons - both black?
+    - 
 */
 
 footer {
@@ -256,6 +204,7 @@ footer {
         display: none;
     }
     
+
 
     /* trying to make jacket become a wide image - just eyes but cannot seem to change shape, never mind cropping! */
     /* .jacket {
