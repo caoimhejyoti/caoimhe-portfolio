@@ -54,6 +54,8 @@ N/A
 
 Portfolio to be viewed on browsers. From the site, they can contact me via Contact me links.  
 
+I have started planning for future developments. These can be found within futureplanningstyle.css. This is not currently linked but provides a space to develop ideas.
+
 ## Credits
 ###Sources
 Google fonts used in the css file. Please refer to the HTML file for further information. 
