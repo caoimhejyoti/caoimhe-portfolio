@@ -18,12 +18,12 @@ header{
     /* header future developments: look at possible glow animations. Look at developing a logo of name. */
     display: flex;
     margin: 50px;
-    color: var(--highlight);
+    color: var(--navy);
     justify-content: center;
 }
 
 main{
-    background-color: var(--pale);
+    background-color: var(--treegreen);
     display:flex-column;
     align-items: center;
     justify-content: center;
@@ -65,7 +65,7 @@ div img{
     border-radius: 5px;
     align-items: center;
     color: var(--background);
-    background-color: var(--highlight)
+    background-color: var(--navy)
 }
 
 
@@ -93,7 +93,7 @@ footer {
 
 .footer{
     padding: 10px;
-    color: var(--highlight);
+    color: var(--navy);
     font-family: 'Rock Salt', cursive;
 }
 

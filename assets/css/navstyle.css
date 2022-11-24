@@ -7,8 +7,8 @@
     justify-content: flex-end;
     flex-wrap: nowrap;
     color: var(--background);
-    background-color: var(--highlight);
-    text-shadow: 1px 1px 5px var(--pale);
+    background-color: var(--navy);
+    text-shadow: 1px 1px 5px var(--treegreen);
 }
 
 .nav a:link {
