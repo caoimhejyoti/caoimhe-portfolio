@@ -15,7 +15,7 @@
     padding: 10px;
     margin: 20px;
     text-decoration: none;
-    color: var(--pale);
+    color: var(--background);
 }
 .nav a:visited{
     color: var(--background);
