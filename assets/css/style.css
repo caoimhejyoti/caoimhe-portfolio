@@ -1,86 +1,27 @@
-html {
-    scroll-behavior: smooth;
-  }
-  
-h1{
-    font-family: 'Rock Salt', cursive;
-    font-size: 8vw;
-    padding: var(--main-marg);
-    text-align: center;
-}
-
-h2{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 4vw;
-    padding: var(--main-marg) 0px var(--main-marg) 0px;
-    text-align: center;
-}
-
-h3{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2vw;
-    padding: var(--main-marg) 0px var(--main-marg) 0px;
-}
-
-li{
-    font-family: 'Rock Salt', cursive;
-    font-size: 1.rem;
-}
-
-p{
-    font-family: 'Alegreya Sans', sans-serif;
-    padding: 10px 0px;
-    font-size: 1.5vw;
-}
-
-body{
-    background-color: var(--background);
-    font-family: 'Open Sans', sans-serif;
-    color: var(--background);
-}
-
-/* 
-hero wants/needs: 
-    - 
-*/
-
-
-.hero{
+.hero{ 
+    /*three images used to create hero. Future developemnt will be to have only one image (jacket) - with focus on eyes. This will require editing of image.*/
     display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
+    margin-top: 20px;
 }
 
 .hero img{
     width: 30vw;
-
+    margin-top: var(--main-marg);
 }
 
-/* 
-header wants/needs:
-    - font
-    - animtions? - glow?
-    - maybe create logo/image of name
-*/
-
 header{
+    /* header future developments: look at possible glow animations. Look at developing a logo of name. */
     display: flex;
     margin: 50px;
     color: var(--header);
     justify-content: center;
     text-shadow: 10px 5px 10px var(--highlight);
 }
-html {
-  scroll-behavior: smooth;
-}
-/* 
-main wants/needs: 
-    - justify main container on the centre of the page
-    - colour
-*/
 
 main{
     background-color: var(--pale);
@@ -91,33 +32,21 @@ main{
     margin: 0px 25px;
 }
 
-/* 
-about wants/needs: 
-    - 
-*/
-
 #about{
     margin-bottom: var(--main-marg);
 }
 
-/* should #me be a span? */
 #me{
+/* future developments for this would be to have an image instead of text, in a circle with animation. */
     font-size: 3vw;
 }
-
-/* 
-work wants/needs: 
-    - 
-*/
 
 #work{
     display: flex;
     display: block;
     margin-bottom: var(--main-marg);
-
 }
 
-/* this is just not working and i cannot figure it out. The flex container is restricting it possibly. auto works but it doesnt then resize. just needs looking at badly! */
 div img{
     width: 100%;
     padding:10px;
@@ -127,13 +56,9 @@ div img{
     min-width: 33.3%;
     max-width: 33.3%;
 }
-/* 
-projects wants/needs: 
-    - animation
-    - colour
-*/
 
 .project1, .project2{
+    /* development ideas: make into tabs */
     display: flex;
     margin: var(--main-marg) 0px var(--main-marg) 0px;
     padding: 10px;
@@ -144,21 +69,6 @@ projects wants/needs:
     background-color: var(--highlight)
 }
 
-/* .project2 {
-    display: flex;
-    margin: var(--main-marg) 0px var(--main-marg) 0px;
-    padding: 10px;
-    height:auto;
-    border-radius: 5px;
-    align-items: center;
-    color: var(--pale);
-    background-color: var(--highlight)
-} */
-
-/* 
-contact wants/needs: 
-    - CONTENT!
-*/
 
 #contact{
     margin: var(--main-marg) 0px;
@@ -170,17 +80,11 @@ contact wants/needs:
     justify-content: center;
 }
 
-
 #contact img{
     display: flex;
     width: 90px;
     justify-content: center;
 }
-
-/* 
-footer wants/needs: 
-    - 
-*/
 
 footer {
     display:flex;
@@ -194,8 +98,7 @@ footer {
     font-family: 'Rock Salt', cursive;
 }
 
-
-
+/* media query for screen reduction. */
 @media screen and (max-width:700px) {
     .nav {
         flex-direction: column; 
@@ -209,33 +112,15 @@ footer {
     .laugh, .silly {
         display: none;
     }
-    
 
-
-    /* trying to make jacket become a wide image - just eyes but cannot seem to change shape, never mind cropping! */
-    /* .jacket {
-        display: flex;
-        width: auto;
-        align-items: center; 
-
-    } */
-        /* why on earth does this unfinished line (192) justify in the center but if the line is completed it does nothing?!
-
-    }
-
-    /* need to increate image size to 50% of card when display is reduced */
     card {
         flex-direction: column;
         width: auto;
     }
 
-.project1 a, .project2 a {
-    max-width: 100%;
-}
-
-    /* .project img{
-        width: 50%;
-    } */
+    .project1 a, .project2 a {
+        max-width: 100%;
+    }
 
     .logo {
         width: auto;
