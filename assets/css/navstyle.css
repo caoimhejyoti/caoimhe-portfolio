@@ -6,9 +6,9 @@
     flex-direction: row;
     justify-content: flex-end;
     flex-wrap: nowrap;
-    color: var(--pale);
+    color: var(--background);
     background-color: var(--highlight);
-    text-shadow: 1px 1px 5px var(--background);
+    text-shadow: 1px 1px 5px var(--pale);
 }
 
 .nav a:link {
@@ -18,11 +18,11 @@
     color: var(--pale);
 }
 .nav a:visited{
-    color: var(--pale);
+    color: var(--background);
 }
 
 .nav a:hover{
-    text-shadow: 1px 1px 5px var(--header);
+    text-shadow: 1px 1px 5px var(--background);
 
 }
 

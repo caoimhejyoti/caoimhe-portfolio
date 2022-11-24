@@ -1,8 +1,8 @@
 :root {
     --header: #a7dbf7;
-    --background: #b7039c;
-    --pale:#fed2c5;
-    --highlight:  #366586;
+    --background: #f9f5ff;
+    --pale:#2c6e49;
+    --highlight:  #0d324d;
     --main-marg: 100px;
     /* future developments: fix this resolve to make life easier! */
     --rocksalt:font-family: 'Rock Salt', cursive;
