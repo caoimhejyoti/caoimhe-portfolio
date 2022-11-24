@@ -44,21 +44,22 @@ This project allowed me to to learn about the following items:
 
 
 ## Installation
-N/A
+https://caoimhejyoti.github.io/caoimhe-portfolio/
 
 ## Usage
 
 
 
 ![Original Colour scheme](assets/img/portfolio-screengrab.png)
-
+*Original Colour Scheme*
 
 ![Final Colour scheme](assets/img/portfolio-screengrab2.png)
-
+*Final Colour Scheme*
 
 Portfolio to be viewed on browsers. From the site, they can contact me via Contact me links.  
 
 I have started planning for future developments. These can be found within futureplanningstyle.css. This is not currently linked but provides a space to develop ideas.
+
 
 ## Credits
 ###Sources
