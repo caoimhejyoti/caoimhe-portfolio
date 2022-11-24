@@ -93,7 +93,7 @@ footer {
 
 .footer{
     padding: 10px;
-    color: var(--header);
+    color: var(--highlight);
     font-family: 'Rock Salt', cursive;
 }
 
