@@ -50,7 +50,11 @@ N/A
 
 
 
-![Alt text](assets/img/portfolio-screengrab.png)
+![Original Colour scheme](assets/img/portfolio-screengrab.png)
+
+
+![Final Colour scheme](assets/img/portfolio-screengrab2.png)
+
 
 Portfolio to be viewed on browsers. From the site, they can contact me via Contact me links.  
 
