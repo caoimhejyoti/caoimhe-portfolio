@@ -24,7 +24,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 ## Description
-###What was your motivation?
+### What was your motivation?
 To produce a portfolio to provide to potential employers samples of my work.
 
 ### Why did you build this project?
@@ -62,7 +62,7 @@ I have started planning for future developments. These can be found within futur
 
 
 ## Credits
-###Sources
+### Sources
 Google fonts used in the css file. Please refer to the HTML file for further information. 
 
 
