@@ -51,12 +51,12 @@ div img{
     padding:10px;
 }
 
-.project1 a, .project2 a{
+.project1 a, .project2 a, .project3 a{
     min-width: 33.3%;
     max-width: 33.3%;
 }
 
-.project1, .project2{
+.project1, .project2, .project3{
     /* development ideas: make into tabs */
     display: flex;
     margin: var(--main-marg) 0px var(--main-marg) 0px;
